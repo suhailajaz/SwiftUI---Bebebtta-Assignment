@@ -41,7 +41,6 @@
 		1AAE2A7C2B7796FC00638BE6 /* ExploreSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSheet.swift; sourceTree = "<group>"; };
 		1AAE2A802B77A65A00638BE6 /* FeedTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTopBar.swift; sourceTree = "<group>"; };
 		1AAE2A822B77A7AF00638BE6 /* GameTypesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTypesCell.swift; sourceTree = "<group>"; };
-		1AAE2A842B77B73C00638BE6 /* GameTypesJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GameTypesJSON.json; sourceTree = "<group>"; };
 		1AAE2A862B77BA2A00638BE6 /* GameTypesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTypesModel.swift; sourceTree = "<group>"; };
 		1AAE2A882B77BA6B00638BE6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		1AAE2A8A2B77C18500638BE6 /* UtitlityMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtitlityMethods.swift; sourceTree = "<group>"; };
@@ -119,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				1AAE2A862B77BA2A00638BE6 /* GameTypesModel.swift */,
-				1AAE2A842B77B73C00638BE6 /* GameTypesJSON.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";

@@ -16,8 +16,10 @@ struct FeedContentView: View {
                 .ignoresSafeArea()
             VStack{
                 FeedTopBar()
+                    .frame(height: 55)
                 ScrollView{
                     GameTypesCell(games: gametypes)
+                    LiveMatchesHeading()
                 
                 }
                 
@@ -25,7 +27,6 @@ struct FeedContentView: View {
         }
         .onAppear {
             gametypes = DataManager.gameTypes
-            print("########")
             print(gametypes)
         }
     }

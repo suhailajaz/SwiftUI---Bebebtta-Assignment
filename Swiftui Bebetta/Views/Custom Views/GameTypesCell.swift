@@ -39,8 +39,7 @@ struct GameTypesCell: View{
                                         .resizable()
                                         .scaledToFit()
                                         .frame(width: 18,height: 18)
-                                    Text(game)
-                                        .textInputAutocapitalization(.words)
+                                    Text(game.capitalized)
                                         .foregroundStyle(cellColors[1])
                                         
                                 }
@@ -52,8 +51,10 @@ struct GameTypesCell: View{
                     
                 }
             }
+            .padding(.leading,12)
         }
         .padding(.vertical, 5)
+
         .ignoresSafeArea(.all)
         
         
