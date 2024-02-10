@@ -17,9 +17,10 @@ struct LiveMatchesHeading: View{
                 .frame(width: 36, height: 20)
                 .foregroundColor(.red)
                 .overlay {
-                    Text("Live")
+                    Text("LIVE")
                         .font(.system(size: 11))
-                        .font(.headline)
+                        .bold()
+                        .foregroundStyle(.white)
                 }
             Text("Live Matches")
                 .bold()
@@ -28,7 +29,7 @@ struct LiveMatchesHeading: View{
             Spacer()
         }
         .frame(height: 22)
-        .padding(.horizontal)
-        .padding(.top, 10)
+        .padding(.leading,16)
+        .padding(.top, 8)
     }
 }

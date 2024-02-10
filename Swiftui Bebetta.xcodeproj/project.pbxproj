@@ -24,6 +24,7 @@
 		1AAE2A892B77BA6B00638BE6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2A882B77BA6B00638BE6 /* DataManager.swift */; };
 		1AAE2A8B2B77C18500638BE6 /* UtitlityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2A8A2B77C18500638BE6 /* UtitlityMethods.swift */; };
 		1AAE2A8D2B77CCF900638BE6 /* LiveMatchesHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2A8C2B77CCF900638BE6 /* LiveMatchesHeading.swift */; };
+		1AAE2A8F2B77D95400638BE6 /* MatchBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2A8E2B77D95400638BE6 /* MatchBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		1AAE2A882B77BA6B00638BE6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		1AAE2A8A2B77C18500638BE6 /* UtitlityMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtitlityMethods.swift; sourceTree = "<group>"; };
 		1AAE2A8C2B77CCF900638BE6 /* LiveMatchesHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMatchesHeading.swift; sourceTree = "<group>"; };
+		1AAE2A8E2B77D95400638BE6 /* MatchBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				1AAE2A802B77A65A00638BE6 /* FeedTopBar.swift */,
 				1AAE2A822B77A7AF00638BE6 /* GameTypesCell.swift */,
 				1AAE2A8C2B77CCF900638BE6 /* LiveMatchesHeading.swift */,
+				1AAE2A8E2B77D95400638BE6 /* MatchBox.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				1AAE2A8B2B77C18500638BE6 /* UtitlityMethods.swift in Sources */,
 				1AAE2A712B7765E600638BE6 /* AccountContentView.swift in Sources */,
 				1AAE2A6D2B77659F00638BE6 /* WriteContentView.swift in Sources */,
+				1AAE2A8F2B77D95400638BE6 /* MatchBox.swift in Sources */,
 				1AAE2A7D2B7796FC00638BE6 /* ExploreSheet.swift in Sources */,
 				1AAE2A6B2B77641500638BE6 /* ExploreContentView.swift in Sources */,
 				1AAE2A812B77A65A00638BE6 /* FeedTopBar.swift in Sources */,

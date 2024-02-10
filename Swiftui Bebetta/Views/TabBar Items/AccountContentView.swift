@@ -12,7 +12,9 @@ struct AccountContentView: View {
         ZStack{
             AppColor.bgBlack.ignoresSafeArea()
             VStack{
+              
                 VStack{
+
                     Text("This is an app build by suhail in SwiftUI for demo purposes")
                         .foregroundStyle(.white)
                         .font(.subheadline)
@@ -24,18 +26,18 @@ struct AccountContentView: View {
                         .font(.footnote)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
-
+                      
                         
                 }
-                .padding(.top)
-                .padding(10)
-                .background(.cyan)
+                .padding(.vertical,30)
+                .background(.gray)
+                .border(.white,width: 2)
                 .cornerRadius(6)
                 .padding(.top,20)
-              
+             
                 
-            
-                Spacer()
+                
+             Spacer()
             }
             
         }

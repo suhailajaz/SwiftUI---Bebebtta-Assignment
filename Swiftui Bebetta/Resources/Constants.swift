@@ -9,7 +9,9 @@ import SwiftUI
 
 struct AppColor {
     static let bgBlack =  colorFromHex(hex: "##101010")
-    
+    static let matchBoxBg =  colorFromHex(hex: "##3A3841")
+    static let betNowBg =  colorFromHex(hex: "#5E5C64")
+    static let vsBG =  colorFromHex(hex: "#EAEAEA")
 }
 
 func colorFromHex(hex: String) -> Color {

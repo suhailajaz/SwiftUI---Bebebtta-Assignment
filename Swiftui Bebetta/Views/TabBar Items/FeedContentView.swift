@@ -20,6 +20,8 @@ struct FeedContentView: View {
                 ScrollView{
                     GameTypesCell(games: gametypes)
                     LiveMatchesHeading()
+                        MatchBox()
+                    
                 
                 }
                 

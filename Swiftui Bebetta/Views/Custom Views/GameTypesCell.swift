@@ -51,7 +51,7 @@ struct GameTypesCell: View{
                     
                 }
             }
-            .padding(.leading,12)
+            .padding(.leading,8)
         }
         .padding(.vertical, 5)
 

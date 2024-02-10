@@ -12,8 +12,14 @@ struct ExploreContentView: View {
         ZStack{
             AppColor.bgBlack
                 .ignoresSafeArea()
-            Text("hello Explore Screen")
-                .foregroundStyle(.white)
+            VStack{
+                Text("hello Explore Screen")
+                    .foregroundStyle(.white)
+                    .offset(x:-70,y:-100)
+                Text("Hello 2")
+                    .foregroundStyle(.white)
+                    .offset(x:50,y:50)
+            }
         }
     }
 }
