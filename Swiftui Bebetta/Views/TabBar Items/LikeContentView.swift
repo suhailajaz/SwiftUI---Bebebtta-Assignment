@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+///like screen. A screen of the tababar.
 struct LikeContentView: View {
     
     var body: some View {

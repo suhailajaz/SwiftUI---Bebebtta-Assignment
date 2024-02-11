@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK: - Explore Screen
 struct ExploreContentView: View {
     
     var body: some View {

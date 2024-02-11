@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//Account Screen.Conatins app watermark
 struct AccountContentView: View {
     var body: some View {
         
