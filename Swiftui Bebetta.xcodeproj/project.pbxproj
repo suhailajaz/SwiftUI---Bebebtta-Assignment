@@ -16,6 +16,7 @@
 		1A884C212B78CE5F00F33FC7 /* MatchPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C202B78CE5F00F33FC7 /* MatchPreview.swift */; };
 		1A884C232B78E4B100F33FC7 /* BettaLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C222B78E4B100F33FC7 /* BettaLabels.swift */; };
 		1A884C252B78E51F00F33FC7 /* BettaOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C242B78E51F00F33FC7 /* BettaOptions.swift */; };
+		1A884C272B78FFE600F33FC7 /* MatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C262B78FFE600F33FC7 /* MatchData.swift */; };
 		1AAE2A562B77629E00638BE6 /* Swiftui_BebettaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2A552B77629E00638BE6 /* Swiftui_BebettaApp.swift */; };
 		1AAE2A582B77629E00638BE6 /* TabBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2A572B77629E00638BE6 /* TabBarContentView.swift */; };
 		1AAE2A5A2B77629F00638BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAE2A592B77629F00638BE6 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		1A884C202B78CE5F00F33FC7 /* MatchPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPreview.swift; sourceTree = "<group>"; };
 		1A884C222B78E4B100F33FC7 /* BettaLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettaLabels.swift; sourceTree = "<group>"; };
 		1A884C242B78E51F00F33FC7 /* BettaOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettaOptions.swift; sourceTree = "<group>"; };
+		1A884C262B78FFE600F33FC7 /* MatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchData.swift; sourceTree = "<group>"; };
 		1AAE2A522B77629E00638BE6 /* Swiftui Bebetta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiftui Bebetta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAE2A552B77629E00638BE6 /* Swiftui_BebettaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_BebettaApp.swift; sourceTree = "<group>"; };
 		1AAE2A572B77629E00638BE6 /* TabBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				1AAE2A862B77BA2A00638BE6 /* GameTypesModel.swift */,
+				1A884C262B78FFE600F33FC7 /* MatchData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				1A884C1B2B78C7EA00F33FC7 /* RapidFireCards.swift in Sources */,
 				1AAE2A6F2B7765B200638BE6 /* LikeContentView.swift in Sources */,
 				1AAE2A792B778C4500638BE6 /* Constants.swift in Sources */,
+				1A884C272B78FFE600F33FC7 /* MatchData.swift in Sources */,
 				1AAE2A872B77BA2A00638BE6 /* GameTypesModel.swift in Sources */,
 				1AAE2A832B77A7AF00638BE6 /* GameTypesCell.swift in Sources */,
 				1AAE2A8D2B77CCF900638BE6 /* LiveMatchesHeading.swift in Sources */,

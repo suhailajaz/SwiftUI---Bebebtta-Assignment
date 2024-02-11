@@ -9,11 +9,11 @@ import Foundation
 import SwiftUI
 
 struct MatchBox: View{
-    
+    var matches: [MatchData]
     var body: some View{
         ScrollView(.horizontal,showsIndicators: false){
             HStack{
-                ForEach(0..<15){ _ in
+                ForEach(matches, id: \.minutes){ match in
                     ZStack{
                         RoundedRectangle(cornerRadius: 20)
                             .inset(by: 2)
@@ -22,11 +22,11 @@ struct MatchBox: View{
                         VStack{
                             HStack{
                                 VStack(spacing:7){
-                                    Image("Espanyol")
+                                    Image(match.team1)
                                         .resizable()
                                         .scaledToFit()
                                         .frame(width:28,height: 33.19)
-                                    Text("Espanyol")
+                                    Text(match.team1)
                                         .foregroundStyle(.white)
                                         .font(.system(size: 10))
                                         .fontWeight(.semibold)
@@ -37,31 +37,31 @@ struct MatchBox: View{
                                     .foregroundColor(AppColor.vsBG)
                                 Spacer()
                                 VStack(spacing:7){
-                                    Image("atl")
+                                    Image(match.team2)
                                         .resizable()
                                         .scaledToFit()
                                         .frame(width:28,height:33.19)
-                                    Text("Atl. Madrid")
+                                    Text(match.team2)
                                         .foregroundStyle(.white)
                                         .font(.system(size: 10))
                                         .fontWeight(.semibold)
                                 }
-                                .padding(.trailing,12)
+                                .padding(.trailing,10)
                             }
                             .padding(.top,10)
                             
                             HStack{
-                                Text("5")
+                                Text(match.score1)
                                     .foregroundColor(.white)
                                     .font(.system(size: 30))
                                     .fontWeight(.medium)
                                 Spacer()
-                                Text("88 min")
-                                    .foregroundColor(Color.yellow)
+                                Text(match.minutes)
+                                    .foregroundColor(match.live ? Color.green : Color.yellow)
                                     .font(.system(size: 10))
                                     .fontWeight(.medium)
                                 Spacer()
-                                Text("3")
+                                Text(match.score2)
                                     .foregroundColor(.white)
                                     .font(.system(size: 30))
                                     .fontWeight(.medium)

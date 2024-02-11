@@ -8,17 +8,20 @@
 
 import SwiftUI
 
-
+//NavigationLink {
+//    ItemDetail(item: item)
+//} label: {
 struct GameTypesCell: View{
    
     var games : [String]
-    
+   
     var body: some View{
         ScrollView(.horizontal, showsIndicators: false) {
             
             HStack {
                 ForEach(games, id: \.self){ game in
                     if game == "coming soon" || game == "reserved"{
+                        
                         Image("coming soon")
                             .resizable()
                             .scaledToFit()

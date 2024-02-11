@@ -10,6 +10,7 @@ import SwiftUI
 struct FeedContentView: View {
     @State private var gametypes = [String]()
     @State private var tickrs = [String]()
+    @State private var matches = [MatchData]()
    
     var body: some View {
         
@@ -24,7 +25,7 @@ struct FeedContentView: View {
                 ScrollView(showsIndicators: false){
                     GameTypesCell(games: gametypes)
                     LiveMatchesHeading()
-                    MatchBox()
+                    MatchBox(matches: matches)
                     MostHappeningHeadline()
                     MostHappeningTickr(tickrs: tickrs)
                     ExploreCard()
@@ -40,6 +41,7 @@ struct FeedContentView: View {
         .onAppear {
             gametypes = DataManager.gameTypes
             tickrs = DataManager.tickrData
+            matches = DataManager.matchdata
         }
     }
     
