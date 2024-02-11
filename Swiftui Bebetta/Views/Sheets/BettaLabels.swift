@@ -5,13 +5,10 @@
 //  Created by suhail on 11/02/24.
 //
 
-import Foundation
-
 import SwiftUI
 
+// MARK: - Explore Screen First layer
 struct BettaLabels: View{
-   
-    
     var body: some View{
         VStack {
             Spacer()
@@ -28,7 +25,7 @@ struct BettaLabels: View{
             }
             Spacer()
             Spacer()
-           
+            
         }
         .offset(y: -50)
     }

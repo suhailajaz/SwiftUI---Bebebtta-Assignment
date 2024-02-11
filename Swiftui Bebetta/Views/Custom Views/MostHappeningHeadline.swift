@@ -5,9 +5,9 @@
 //  Created by suhail on 11/02/24.
 //
 
-import Foundation
 import SwiftUI
 
+///Gives headline to the most happening view
 struct MostHappeningHeadline: View{
     
     var body: some View{

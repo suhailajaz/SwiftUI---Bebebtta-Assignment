@@ -4,10 +4,9 @@
 //
 //  Created by suhail on 11/02/24.
 //
-
-import Foundation
 import SwiftUI
 
+///Rapid Fire Card View
 struct RapidFireCards: View{
     
     var body: some View{

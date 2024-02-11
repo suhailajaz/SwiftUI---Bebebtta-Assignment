@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+///The circular tickr view. Fully scrollable and adapative to changes in the datasource.
 struct MostHappeningTickr: View {
     
     let tickrs : [String]

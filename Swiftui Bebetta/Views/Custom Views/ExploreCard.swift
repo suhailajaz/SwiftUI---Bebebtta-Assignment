@@ -5,9 +5,9 @@
 //  Created by suhail on 11/02/24.
 //
 
-import Foundation
 import SwiftUI
 
+///Explore Card view. Presents a sheet when tapped.
 struct ExploreCard: View{
     @State var presentSheet: Bool = false
     
@@ -19,15 +19,16 @@ struct ExploreCard: View{
             Image("bettaCoinPoster")
                 .resizable()
                 .scaledToFit()
-              
+            
                 .padding(.horizontal,16)
         }
         .padding(.vertical, 10)
         .sheet(isPresented: $presentSheet) {
-              ExploreSheet()
+            ///Navigates to the explore sheets screen
+            ExploreSheet()
                 .presentationDetents([.medium])
-          }
-       
+        }
+        
     }
-      
+    
 }

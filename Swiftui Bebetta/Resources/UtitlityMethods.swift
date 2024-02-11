@@ -5,9 +5,10 @@
 //  Created by suhail on 10/02/24.
 //
 
-import Foundation
+
 import SwiftUI
 
+// MARK: - A struct that determines the cell colors based on sport according to the design
 struct CellConfiguration{
     static func cellColors(color: String)-> [Color]{
         
@@ -30,7 +31,7 @@ struct CellConfiguration{
     
     
 }
-//custom Rounded corners
+// MARK: - Extension plus struct used to give corner radius to only specific corners
 extension View {
     func cornerRadius(_ radius: CGFloat, corners: UIRectCorner) -> some View {
         clipShape( RoundedCorner(radius: radius, corners: corners) )
@@ -46,7 +47,8 @@ struct RoundedCorner: Shape {
         return Path(path.cgPath)
     }
 }
-//custom borders
+
+// MARK: - Extension plus struct used to give borders  to only specific sides
 extension View {
     func border(width: CGFloat, edges: [Edge], color: Color) -> some View {
         overlay(EdgeBorder(width: width, edges: edges).foregroundColor(color))

@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - Feed SCreen/ Home Screen
+
 struct FeedContentView: View {
     @State private var gametypes = [String]()
     @State private var tickrs = [String]()

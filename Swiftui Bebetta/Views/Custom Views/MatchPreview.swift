@@ -5,9 +5,9 @@
 //  Created by suhail on 11/02/24.
 //
 
-import Foundation
 import SwiftUI
 
+///The match preview Vertical scrollable vview.
 struct MatchPreview: View{
    
     let previews = ["barcvsbay","acvsfio"]
@@ -21,8 +21,6 @@ struct MatchPreview: View{
                             .resizable()
                             .scaledToFit()
                             .frame(height:150)
-                        
-                    
                 }
             }
            

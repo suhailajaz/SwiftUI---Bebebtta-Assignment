@@ -7,8 +7,9 @@
 
 import SwiftUI
 
+///constructs the top bar on the feed screen
 struct FeedTopBar: View{
-
+    
     var body: some View{
         HStack{
             Image("BeBetta")
@@ -28,6 +29,5 @@ struct FeedTopBar: View{
         .padding(.all)
         
     }
-    
-    
+       
 }

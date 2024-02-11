@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+// MARK: - Tab Bar Screen. Listis all the tab screens in order.
 struct TabBarContentView: View {
     
     init() {
@@ -19,7 +19,7 @@ struct TabBarContentView: View {
     }
     
     var body: some View {
-        
+        ///the screens are defined in order of the icons on design
         TabView{
             FeedContentView()
                 .tabItem {

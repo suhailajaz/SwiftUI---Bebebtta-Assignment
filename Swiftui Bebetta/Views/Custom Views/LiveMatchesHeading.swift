@@ -5,12 +5,11 @@
 //  Created by suhail on 10/02/24.
 //
 
-import Foundation
-
 import SwiftUI
 
+//Used for giving the Live match headline
 struct LiveMatchesHeading: View{
-  
+    
     var body: some View{
         HStack(spacing:10){
             RoundedRectangle(cornerRadius: 5)
@@ -25,7 +24,7 @@ struct LiveMatchesHeading: View{
             Text("Live Matches")
                 .bold()
                 .foregroundStyle(.white)
-               
+            
             Spacer()
         }
         .frame(height: 22)

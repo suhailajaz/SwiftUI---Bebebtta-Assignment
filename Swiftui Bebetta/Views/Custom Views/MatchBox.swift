@@ -5,9 +5,9 @@
 //  Created by suhail on 10/02/24.
 //
 
-import Foundation
 import SwiftUI
 
+///A fully functional, dynamic and resusable match card view. The cells automatically adpat to the number of items in the datasource.
 struct MatchBox: View{
     var matches: [MatchData]
     var body: some View{
@@ -18,7 +18,7 @@ struct MatchBox: View{
                         RoundedRectangle(cornerRadius: 20)
                             .inset(by: 2)
                             .fill(AppColor.matchBoxBg)
-                            //.shadow(color:.white,radius: 1)
+                        //.shadow(color:.white,radius: 1)
                         VStack{
                             HStack{
                                 VStack(spacing:7){
@@ -66,7 +66,7 @@ struct MatchBox: View{
                                     .font(.system(size: 30))
                                     .fontWeight(.medium)
                             }
-                           
+                            
                             .padding(.horizontal,30)
                             .padding(.vertical,2)
                             Spacer()
@@ -74,7 +74,7 @@ struct MatchBox: View{
                             Rectangle()
                                 .frame(width:176,height: 36)
                                 .cornerRadius(12, corners: [.bottomLeft,.bottomRight])
-                                
+                            
                                 .foregroundStyle(AppColor.betNowBg)
                                 .overlay {
                                     Text("BET NOW")
@@ -86,11 +86,7 @@ struct MatchBox: View{
                         
                     }
                     .frame(width: 180,height: 160)
-                  
-                  
-                    
-                    
-
+        
                 }
             }
             .padding(.leading,12)

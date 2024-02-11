@@ -5,19 +5,15 @@
 //  Created by suhail on 10/02/24.
 //
 
-
 import SwiftUI
 
-//NavigationLink {
-//    ItemDetail(item: item)
-//} label: {
+///constructs the top game type layout, i.e the top collection view
 struct GameTypesCell: View{
-   
     var games : [String]
-   
+    
     var body: some View{
+       
         ScrollView(.horizontal, showsIndicators: false) {
-            
             HStack {
                 ForEach(games, id: \.self){ game in
                     if game == "coming soon" || game == "reserved"{
@@ -28,7 +24,7 @@ struct GameTypesCell: View{
                             .frame(width: 224,height: 34)
                     }else{
                         
-                       let cellColors = CellConfiguration.cellColors(color: game)
+                        let cellColors = CellConfiguration.cellColors(color: game)
                         
                         RoundedRectangle(cornerRadius:30)
                             .inset(by: 1)
@@ -44,25 +40,18 @@ struct GameTypesCell: View{
                                         .frame(width: 18,height: 18)
                                     Text(game.capitalized)
                                         .foregroundStyle(cellColors[1])
-                                        
-                                }
-                            
-                            )
+                                    
+                                })
                     }
-                    
-                    
-                    
                 }
             }
             .padding(.leading,8)
         }
         .padding(.vertical, 5)
-
+        
         .ignoresSafeArea(.all)
         
         
     }
-    
-    
     
 }

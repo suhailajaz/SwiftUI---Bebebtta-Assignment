@@ -5,9 +5,9 @@
 //  Created by suhail on 11/02/24.
 //
 
-import Foundation
 import SwiftUI
 
+//Rapid Fire Section Headline
 struct RApidFireHeadline: View{
     
     var body: some View{

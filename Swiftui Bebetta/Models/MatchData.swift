@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: - Model for match data
 struct MatchData: Codable{
     
     let team1: String

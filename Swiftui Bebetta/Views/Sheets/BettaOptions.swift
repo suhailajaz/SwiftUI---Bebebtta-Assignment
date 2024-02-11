@@ -4,13 +4,10 @@
 //
 //  Created by suhail on 11/02/24.
 //
-
-import Foundation
 import SwiftUI
 
+// MARK: - Explore Screen Second layer
 struct BettaOptions: View{
-    
-    
     var body: some View{
         VStack {
             Image("3DCoin")
