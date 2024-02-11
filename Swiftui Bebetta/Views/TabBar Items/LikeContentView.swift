@@ -11,8 +11,17 @@ import SwiftUI
 struct LikeContentView: View {
     
     var body: some View {
+        ZStack{
             Color.black
                 .ignoresSafeArea()
+            VStack{
+                Text("Like Screen")
+                    .bold()
+                    .foregroundStyle(.white)
+                Spacer()
+            }
+            
+        }
     }
 }
 
