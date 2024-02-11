@@ -103,7 +103,7 @@
 				1AAE2A692B77634400638BE6 /* Resources */,
 				1AAE2A652B7762FF00638BE6 /* Models */,
 				1AAE2A632B7762EB00638BE6 /* Views */,
-				1AAE2A642B7762F200638BE6 /* Controllers */,
+				1AAE2A642B7762F200638BE6 /* View Models */,
 				1AAE2A5B2B77629F00638BE6 /* Preview Content */,
 			);
 			path = "Swiftui Bebetta";
@@ -129,11 +129,11 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		1AAE2A642B7762F200638BE6 /* Controllers */ = {
+		1AAE2A642B7762F200638BE6 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Controllers;
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 		1AAE2A652B7762FF00638BE6 /* Models */ = {
