@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct WriteContentView: View {
+    
     var body: some View {
-        ZStack{
-            AppColor.bgBlack
+            Color.black
                 .ignoresSafeArea()
-            Text("hello write Screen")
-                .foregroundStyle(.white)
-        }
+           
     }
 }
 

@@ -9,36 +9,28 @@ import SwiftUI
 
 struct AccountContentView: View {
     var body: some View {
+        
         ZStack{
-            AppColor.bgBlack.ignoresSafeArea()
+            Color.black
+                .ignoresSafeArea()
+            
             VStack{
-              
-                VStack{
-
-                    Text("This is an app build by suhail in SwiftUI for demo purposes")
-                        .foregroundStyle(.white)
-                        .font(.subheadline)
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.center)
-                      
-                    Text("© Bebetta")
-                        .foregroundStyle(.white)
-                        .font(.footnote)
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.center)
-                      
-                        
-                }
-                .padding(.vertical,30)
-                .background(.gray)
-                .border(.white,width: 2)
-                .cornerRadius(6)
-                .padding(.top,20)
-             
                 
+                Text("This is an app build by suhail in SwiftUI for demo purposes")
+                    .foregroundStyle(.white)
+                    .font(.subheadline)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
                 
-             Spacer()
+                Text("© Bebetta")
+                    .foregroundStyle(.white)
+                    .font(.footnote)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                
+                Spacer()
             }
+            .padding(.vertical,30)
             
         }
     }

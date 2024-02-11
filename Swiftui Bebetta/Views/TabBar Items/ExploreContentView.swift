@@ -8,19 +8,11 @@
 import SwiftUI
 
 struct ExploreContentView: View {
+    
     var body: some View {
-        ZStack{
-            AppColor.bgBlack
+            Color.black
                 .ignoresSafeArea()
-            VStack{
-                Text("hello Explore Screen")
-                    .foregroundStyle(.white)
-                    .offset(x:-70,y:-100)
-                Text("Hello 2")
-                    .foregroundStyle(.white)
-                    .offset(x:50,y:50)
-            }
-        }
+       
     }
 }
 

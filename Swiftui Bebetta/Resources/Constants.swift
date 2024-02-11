@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct AppColor {
-    static let bgBlack =  colorFromHex(hex: "##101010")
+    static let bgBlack =  colorFromHex(hex: "101010")
     static let matchBoxBg =  colorFromHex(hex: "##3A3841")
     static let betNowBg =  colorFromHex(hex: "#5E5C64")
     static let vsBG =  colorFromHex(hex: "#EAEAEA")
+    static let btnBlue =  colorFromHex(hex: "#3900D8")
+    static let blurBG =  colorFromHex(hex: "#5F5F5F")
 }
 
-func colorFromHex(hex: String) -> Color {
+private func colorFromHex(hex: String) -> Color {
     var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
     hexSanitized = hexSanitized.replacingOccurrences(of: "#", with: "")
 

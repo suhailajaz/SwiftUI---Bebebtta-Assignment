@@ -11,6 +11,7 @@ import Foundation
 
 struct DataManager{
     static let gameTypes = ["football","cricket","coming soon","tennis","skating","boxing","reserved"]
+    static let tickrData = ["Usab","dal","Ncaff","Madrid","Phi"]
    
     
 }

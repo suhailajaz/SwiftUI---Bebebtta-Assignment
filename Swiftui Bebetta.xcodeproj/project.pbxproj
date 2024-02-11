@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A884C142B78BECF00F33FC7 /* MostHappeningHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C132B78BECF00F33FC7 /* MostHappeningHeadline.swift */; };
+		1A884C162B78C06700F33FC7 /* MostHappeningTickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C152B78C06600F33FC7 /* MostHappeningTickr.swift */; };
+		1A884C182B78C62300F33FC7 /* RapidFireHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C172B78C62300F33FC7 /* RapidFireHeadline.swift */; };
+		1A884C1B2B78C7EA00F33FC7 /* RapidFireCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C1A2B78C7EA00F33FC7 /* RapidFireCards.swift */; };
+		1A884C1D2B78C8FC00F33FC7 /* ExploreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C1C2B78C8FC00F33FC7 /* ExploreCard.swift */; };
+		1A884C1F2B78CDA200F33FC7 /* MatchPreviewHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C1E2B78CDA200F33FC7 /* MatchPreviewHeadline.swift */; };
+		1A884C212B78CE5F00F33FC7 /* MatchPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C202B78CE5F00F33FC7 /* MatchPreview.swift */; };
+		1A884C232B78E4B100F33FC7 /* BettaLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C222B78E4B100F33FC7 /* BettaLabels.swift */; };
+		1A884C252B78E51F00F33FC7 /* BettaOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A884C242B78E51F00F33FC7 /* BettaOptions.swift */; };
 		1AAE2A562B77629E00638BE6 /* Swiftui_BebettaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2A552B77629E00638BE6 /* Swiftui_BebettaApp.swift */; };
 		1AAE2A582B77629E00638BE6 /* TabBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2A572B77629E00638BE6 /* TabBarContentView.swift */; };
 		1AAE2A5A2B77629F00638BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAE2A592B77629F00638BE6 /* Assets.xcassets */; };
@@ -28,6 +37,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A884C132B78BECF00F33FC7 /* MostHappeningHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostHappeningHeadline.swift; sourceTree = "<group>"; };
+		1A884C152B78C06600F33FC7 /* MostHappeningTickr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostHappeningTickr.swift; sourceTree = "<group>"; };
+		1A884C172B78C62300F33FC7 /* RapidFireHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidFireHeadline.swift; sourceTree = "<group>"; };
+		1A884C1A2B78C7EA00F33FC7 /* RapidFireCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidFireCards.swift; sourceTree = "<group>"; };
+		1A884C1C2B78C8FC00F33FC7 /* ExploreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCard.swift; sourceTree = "<group>"; };
+		1A884C1E2B78CDA200F33FC7 /* MatchPreviewHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPreviewHeadline.swift; sourceTree = "<group>"; };
+		1A884C202B78CE5F00F33FC7 /* MatchPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPreview.swift; sourceTree = "<group>"; };
+		1A884C222B78E4B100F33FC7 /* BettaLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettaLabels.swift; sourceTree = "<group>"; };
+		1A884C242B78E51F00F33FC7 /* BettaOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettaOptions.swift; sourceTree = "<group>"; };
 		1AAE2A522B77629E00638BE6 /* Swiftui Bebetta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiftui Bebetta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAE2A552B77629E00638BE6 /* Swiftui_BebettaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_BebettaApp.swift; sourceTree = "<group>"; };
 		1AAE2A572B77629E00638BE6 /* TabBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +157,13 @@
 				1AAE2A822B77A7AF00638BE6 /* GameTypesCell.swift */,
 				1AAE2A8C2B77CCF900638BE6 /* LiveMatchesHeading.swift */,
 				1AAE2A8E2B77D95400638BE6 /* MatchBox.swift */,
+				1A884C132B78BECF00F33FC7 /* MostHappeningHeadline.swift */,
+				1A884C152B78C06600F33FC7 /* MostHappeningTickr.swift */,
+				1A884C1C2B78C8FC00F33FC7 /* ExploreCard.swift */,
+				1A884C172B78C62300F33FC7 /* RapidFireHeadline.swift */,
+				1A884C1A2B78C7EA00F33FC7 /* RapidFireCards.swift */,
+				1A884C1E2B78CDA200F33FC7 /* MatchPreviewHeadline.swift */,
+				1A884C202B78CE5F00F33FC7 /* MatchPreview.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -157,6 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				1AAE2A7C2B7796FC00638BE6 /* ExploreSheet.swift */,
+				1A884C222B78E4B100F33FC7 /* BettaLabels.swift */,
+				1A884C242B78E51F00F33FC7 /* BettaOptions.swift */,
 			);
 			path = Sheets;
 			sourceTree = "<group>";
@@ -243,22 +270,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A884C1F2B78CDA200F33FC7 /* MatchPreviewHeadline.swift in Sources */,
 				1AAE2A582B77629E00638BE6 /* TabBarContentView.swift in Sources */,
 				1AAE2A772B77846700638BE6 /* FeedContentView.swift in Sources */,
 				1AAE2A562B77629E00638BE6 /* Swiftui_BebettaApp.swift in Sources */,
+				1A884C162B78C06700F33FC7 /* MostHappeningTickr.swift in Sources */,
+				1A884C142B78BECF00F33FC7 /* MostHappeningHeadline.swift in Sources */,
+				1A884C182B78C62300F33FC7 /* RapidFireHeadline.swift in Sources */,
 				1AAE2A892B77BA6B00638BE6 /* DataManager.swift in Sources */,
+				1A884C1D2B78C8FC00F33FC7 /* ExploreCard.swift in Sources */,
+				1A884C212B78CE5F00F33FC7 /* MatchPreview.swift in Sources */,
 				1AAE2A8B2B77C18500638BE6 /* UtitlityMethods.swift in Sources */,
 				1AAE2A712B7765E600638BE6 /* AccountContentView.swift in Sources */,
 				1AAE2A6D2B77659F00638BE6 /* WriteContentView.swift in Sources */,
+				1A884C252B78E51F00F33FC7 /* BettaOptions.swift in Sources */,
 				1AAE2A8F2B77D95400638BE6 /* MatchBox.swift in Sources */,
 				1AAE2A7D2B7796FC00638BE6 /* ExploreSheet.swift in Sources */,
 				1AAE2A6B2B77641500638BE6 /* ExploreContentView.swift in Sources */,
 				1AAE2A812B77A65A00638BE6 /* FeedTopBar.swift in Sources */,
+				1A884C1B2B78C7EA00F33FC7 /* RapidFireCards.swift in Sources */,
 				1AAE2A6F2B7765B200638BE6 /* LikeContentView.swift in Sources */,
 				1AAE2A792B778C4500638BE6 /* Constants.swift in Sources */,
 				1AAE2A872B77BA2A00638BE6 /* GameTypesModel.swift in Sources */,
 				1AAE2A832B77A7AF00638BE6 /* GameTypesCell.swift in Sources */,
 				1AAE2A8D2B77CCF900638BE6 /* LiveMatchesHeading.swift in Sources */,
+				1A884C232B78E4B100F33FC7 /* BettaLabels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

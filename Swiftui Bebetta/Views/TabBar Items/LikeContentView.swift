@@ -8,13 +8,10 @@
 import SwiftUI
 
 struct LikeContentView: View {
+    
     var body: some View {
-        ZStack{
-            AppColor.bgBlack
+            Color.black
                 .ignoresSafeArea()
-            Text("hello like Screen")
-                .foregroundStyle(.white)
-        }
     }
 }
 

@@ -9,30 +9,40 @@ import SwiftUI
 
 struct FeedContentView: View {
     @State private var gametypes = [String]()
-    
+    @State private var tickrs = [String]()
+   
     var body: some View {
+        
         ZStack{
-            AppColor.bgBlack
+            Color.black
                 .ignoresSafeArea()
+            
             VStack{
                 FeedTopBar()
                     .frame(height: 55)
-                ScrollView{
+                
+                ScrollView(showsIndicators: false){
                     GameTypesCell(games: gametypes)
                     LiveMatchesHeading()
-                        MatchBox()
+                    MatchBox()
+                    MostHappeningHeadline()
+                    MostHappeningTickr(tickrs: tickrs)
+                    ExploreCard()
+                    RApidFireHeadline()
+                    RapidFireCards()
+                    MatchPreviewHeadline()
+                    MatchPreview()
                     
-                
                 }
                 
             }
         }
         .onAppear {
             gametypes = DataManager.gameTypes
-            print(gametypes)
+            tickrs = DataManager.tickrData
         }
     }
-   
+    
 }
 
 #Preview {
